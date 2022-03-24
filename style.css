@@ -54,7 +54,7 @@ body {
   box-sizing: content-box;
   /* height: 50%; */
   /* width: 100%; */
-  padding: 40%;
+  padding: 41%;
   border-radius: 9px;
   top: 50%;
   left: 50%;
@@ -150,14 +150,50 @@ body {
 
 /* media queries */
 
-@media (max-width: 90em) {
+@media (max-width: 104em) {
   .card {
-    width: 23%;
+    width: 16%;
   }
 }
 
-@media (max-width: 24em) {
+@media (max-width: 91em) {
   .card {
-    width: 80%;
+    width: 19%;
+  }
+}
+
+@media (max-width: 76em) {
+  .card {
+    width: 22%;
+  }
+}
+
+@media (max-width: 60em) {
+  .card {
+    width: 28%;
+  }
+}
+
+@media (max-width: 47em) {
+  .card {
+    width: 37%;
+  }
+}
+
+@media (max-width: 32em) {
+  .card {
+    width: 54%;
+  }
+}
+
+@media (max-width: 26em) {
+  .card {
+    width: 65%;
+  }
+}
+
+@media (max-width: 25em) {
+  .card {
+    width: 69%;
   }
 }
